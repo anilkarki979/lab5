@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lab#5 - Designing website using Frames</title>
+</head>
+<frameset rows = "8%, 15%, 5%, 52%,*">
+    <frameset cols="33%, 33%, 34%">
+	<frame name="top" src="frame_1.html">
+	<frame name="topa" src="frame_2.html">
+	<frame name="topb" src="frame_3.html">
+    </frameset>
+    <frame name="header" src="frame_4.html">
+    <frame name="menu" src="frame_5.html">
+    <frameset cols="20%, 60%, 20%">
+    	<frame name="slider" src="frame_6.html" />
+    	<frame name="glider" src="frame_7.html" />
+        <frame name="glidera" src="frame_8.html" />
+    </frameset>
+    <frameset cols="25%, 75%">
+    <frame name="footer" src="frame_9.html" />
+    <frame name="footera" src="frame_10.html" />
+    </frameset>
+    <noframes>
+    	<body>Your browser does not support frames.</body>
+    </noframes>
+</frameset>
+</html>
